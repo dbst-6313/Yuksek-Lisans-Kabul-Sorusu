@@ -60,11 +60,8 @@ int main(int argc, char *argv[]) {
 	scanf("%f",&notOrt);
 	    printf("Disiplin cezasi aldinizmi [Evet =0/Hayir =1] : ");
 	scanf("%d",&disiplin);
-	if(cUni(ales,yds,toefl,notOrt,mPuan) == 1 && bUni(ales,yds,toefl,notOrt,mPuan,disiplin) == 1 && aUni(ales,yds,toefl,notOrt,mPuan) == 1)
-	{
-		printf("Ogrenci a,b,c universitelerinin yuksek lisansina kabul edilebilir");
-	}
-	else if(cUni(ales,yds,toefl,notOrt,mPuan) != 1 && bUni(ales,yds,toefl,notOrt,mPuan,disiplin) != 1 && aUni(ales,yds,toefl,notOrt,mPuan) != 1){
+    if(cUni(ales,yds,toefl,notOrt,mPuan) != 1 && bUni(ales,yds,toefl,notOrt,mPuan,disiplin) != 1 && aUni(ales,yds,toefl,notOrt,mPuan) != 1)
+        {
 		printf("Hic bir universitenin yuksek lisansina giris yapamaz \n");
 	}
     if(cUni(ales,yds,toefl,notOrt,mPuan) == 1)
