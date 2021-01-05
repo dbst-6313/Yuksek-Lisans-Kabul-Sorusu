@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
 	}
     if(aUni(ales,yds,toefl,notOrt,mPuan) == 1)
 	{
-			printf("Ogrenci a universitesi yuksek lisansina girebilir \n");
+		printf("Ogrenci a universitesi yuksek lisansina girebilir \n");
 	}
 	
 	return 0;
