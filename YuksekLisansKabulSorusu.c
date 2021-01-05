@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-typedef enum { F, T } boolean; 
+typedef enum { T, F } boolean; 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int aUni(int ales,int yds,int toefl,float notOrt,int mPuan){
 if(ales >=70 || notOrt >=3.0)
